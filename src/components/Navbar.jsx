@@ -7,7 +7,7 @@ const Navbar = () => {
     
 
   return (
-    <section className='h-[88px] flex justify-between bg-[ #F4F6F8] md:px-20 px-8  py-6'>
+    <section className='h-[88px] flex justify-between bg-[ #F4F6F8] md:px-20 px-8  py-6 border-b-2 border-[#2D547D]' >
         <div className='flex justify-between items-center'>
             <img src={Logo} alt="" className=' object-cover' />
             <div  onClick={() => setOpen(!open)}className='text-[#2D547D] text-4xl cursor-pointer md:hidden absolute right-8 top-6 text-center'>
@@ -22,36 +22,36 @@ const Navbar = () => {
                   Home
                 </li>
             </Link>
-            <Link to='/about'>
+            <Link to='/about-us'>
                 <li className=' hover:text-[#2D547D] md:pb-0 pb-5 text-xl'>
                   About
                 </li>
                 </Link>
-            <Link to='/events'>
+            <Link to='/gorilla'>
                <li className=' hover:text-[#2D547D] md:pb-0 pb-5 text-xl'>
                   Gorilla
                 </li>
                </Link>
            
-               <Link to='/gallery'>
+               <Link to='/reels'>
                <li className=' hover:text-[#2D547D] md:pb-0 pb-5 text-xl'>
                   Reels
                 </li>
                </Link>
-               <Link to='/contact'>
+               <Link to='/contact-us'>
                <li className=' hover:text-[#2D547D] md:pb-0 pb-5 text-xl'>
                   Contact
                 </li>
                </Link>
       
-        <Link to='/signingg'>
+        <Link to='/'>
         <button className= '  md:hidden block bg-[#2D547D] text-white text-center border rounded-lg w-[100px] h-[40px] hover:opacity-75 hover:text-white '>Visit</button>
     </Link> 
       
             </ul>
         </div>
       
-         <Link to='/signing'>
+         <Link to='/'>
         <button className= ' md:block hidden bg-[#2D547D] text-white text-center border rounded-lg w-[124px] h-[40px] hover:opacity-75 hover:text-white'>Visit</button>
     </Link> 
        
