@@ -130,7 +130,7 @@ const AboutUs = () => {
        <h5 className="font-bold mb-6 text-3xl">OUR OFFICIAL SEALS:</h5>
        <div className="flex gap-2">
          <img src={Aoc1} alt="" className="w-[300px] h-[300px]" />
-         <img src={Aoc2} alt="" className="w-[300px] h-[300px] border-4 border-black p-1"/>
+         <img src={Aoc2} alt="" className="w-[300px] h-[300px] border-4O border-black p-1"/>
        </div>
     </section>
   )
